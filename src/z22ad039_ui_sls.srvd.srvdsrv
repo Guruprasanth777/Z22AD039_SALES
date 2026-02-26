@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Definition for Sales Order'
+define service Z22AD039_UI_SLS {
+  expose Z22AD039_I_SLS    as Header;
+  expose Z22AD039_I_SLSITM as Item;
+}
